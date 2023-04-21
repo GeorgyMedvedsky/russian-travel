@@ -1,6 +1,5 @@
 .page{
     background: #2A2C2F;
-    max-width: 1600px;
-    padding: 0 calc(50vw - 800px);
     font-family: 'Inter', 'Arial', sans-serif;
+    padding-top: 28px;
 }
