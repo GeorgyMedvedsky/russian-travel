@@ -8,3 +8,12 @@
     color: #FFFFFF;
     max-width: 600px;
 }
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle{
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 288px;
+    }
+}

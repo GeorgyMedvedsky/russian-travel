@@ -1,3 +1,9 @@
 .lead__image-container{
     margin-top: 62px;
 }
+
+@media screen and (min-width: 320px) {
+    .lead__image-container{
+        margin-top: 40px;
+    }
+}

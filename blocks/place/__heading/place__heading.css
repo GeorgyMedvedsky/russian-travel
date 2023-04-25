@@ -6,3 +6,11 @@
     color: #FFFFFF;
     grid-area: heading;
 }
+
+@media screen and (max-width: 768px) {
+    .place__heading{
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 320px;
+    }
+}

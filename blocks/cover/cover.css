@@ -1,5 +1,19 @@
 .cover{
     padding: 92px 48px;
     height: 740px;
-    background: url('../../images/cover-train.jpg') no-repeat content-box;
+    background: url('../../images/cover-train.jpg') no-repeat content-box center;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover{
+        padding: 92px 0;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover{
+        padding: 90px 0 88px;
+        height: 480px;
+    }
 }

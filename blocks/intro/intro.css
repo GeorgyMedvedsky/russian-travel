@@ -2,3 +2,14 @@
     padding: 92px 148px 0;
     max-width: 690px;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro{
+        padding: 92px 48px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro{
+        padding: 88px 24px 0;
+    }
+}
