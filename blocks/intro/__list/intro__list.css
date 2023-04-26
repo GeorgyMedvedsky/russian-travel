@@ -4,5 +4,11 @@
     font-size: 12px;
     line-height: 18px;
     color: #FFFFFF;
-    margin-top: 37px;
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__list{
+        margin-top: 34px;
+    }
 }

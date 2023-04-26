@@ -1,5 +1,7 @@
-/* Main */
+/* Vendor */
 @import url(../vendor/normalize.css);
+
+/* Page */
 @import url(../blocks/page/page.css);
 
 /* Header */

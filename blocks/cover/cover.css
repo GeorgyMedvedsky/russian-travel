@@ -1,19 +1,24 @@
 .cover{
     padding: 92px 48px;
     height: 740px;
-    background: url('../../images/cover-train.jpg') no-repeat content-box center;
+    background: url('../../images/cover-train.jpg') no-repeat content-box center/cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px){
     .cover{
         padding: 92px 0;
         height: 640px;
     }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover{
         padding: 90px 0 88px;
         height: 480px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cover{
+        padding: 66px 0 64px;
+        height: 200px;
     }
 }

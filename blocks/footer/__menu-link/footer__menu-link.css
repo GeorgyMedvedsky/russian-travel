@@ -5,3 +5,10 @@
     line-height: 18px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__menu-link{
+        font-size: 24px;
+        line-height: 24px;
+    }
+}
