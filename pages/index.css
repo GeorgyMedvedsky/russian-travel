@@ -4,6 +4,9 @@
 /* Page */
 @import url(../blocks/page/page.css);
 
+/* Font */
+@import url(../fonts/font-face.css);
+
 /* Header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
