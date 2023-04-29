@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Inter';
-    src: url(../../fonts/Inter-Bold.woff);
-    font-weight: 900;
-}
-@font-face {
-    font-family: 'Inter';
-    src: url(../../fonts/Inter-Bold.woff2);
-    font-weight: 900;
-}
 .page{
     background: #2A2C2F;
     font-family: 'Inter', 'Arial', sans-serif;
